@@ -58,6 +58,7 @@ click1.start()
 app = CTk(fg_color="#1e293b")
 app.geometry("350x450")
 app.title("Autoclicker")
+app.resizable(0,0)
 
 def save():
     global st_key
